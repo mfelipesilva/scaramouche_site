@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+}
+
+.photos-grid{
+    justify-content:left;
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    gap: 5px;
+}
+
+.photos-grid div{
+    height: 160px;
+    width: 120px;
+    font-size: 70px;
+    color: white;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    direction:ltr;
+    opacity: 38%;
+    background-image: url(resources/fatui_logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+    .photos-grid div:nth-child(1) img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        
+    }
+    
+    .photos-grid div:nth-child(2) img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .photos-grid div:nth-child(3) img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    }
+
+    .photos-grid div:nth-child(4) img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    }
+
+    .photos-grid div:nth-child(5) img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    }
+
+    .photos-grid div:nth-child(6) img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .photos-grid div:nth-child(6){
+        background-image: url(resources/fatui_logo_red.png);
+        background-size: 139%;
+}
+
+    .photos-grid div:nth-child(6){
+        opacity: 100%;
+    }
+
+    .photos-grid div:nth-child(7) img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    }
+
+    .photos-grid div:nth-child(8) img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    }
+
+    .photos-grid div:nth-child(9) img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    }
+
+    .photos-grid div:nth-child(10) img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    }
