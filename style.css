@@ -1,18 +1,18 @@
 body {
-    background-color: black;
+    background-color: rgb(32, 17, 8);
 }
 
 .photos-grid{
     justify-content:left;
     display: grid;
     grid-template-columns: repeat(2,150px);
-    gap: 5px;
+    gap: 8px;
 }
 
 .photos-grid div{
     height: 160px;
     width: 120px;
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     display: flex;
     position: relative;
@@ -22,10 +22,16 @@ body {
     background-image: url(resources/fatui_logo.png);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
-    .photos-grid div img{
-        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 1));
-    }
+.photos-grid div img{
+    position: relative;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 1));
+}
+
+.photos-grid div{
+    border: 2px solid rgb(160, 6, 6);
+}
 
     .photos-grid div:nth-child(1) img{
         height: 100%;
@@ -74,12 +80,12 @@ body {
         object-fit: cover;
         position: absolute;
         z-index: -1;
-        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 1));
     }
 
     .photos-grid div:nth-child(6){
         background-image: url(resources/fatui_logo_red.png);
         background-size: 139%;
+        border: solid #b91f11;
 }
 
     .photos-grid div:nth-child(6){
