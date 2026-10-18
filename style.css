@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(32, 17, 8);
+    background-color: rgb(32, 8, 8);
     max-width: min-content;
+    color: white;
 }
 
 .main-container{
@@ -10,133 +11,16 @@ body {
     gap: 20px;
 }
 
-.photos-grid{
-    justify-content:left;
-    display: grid;
-    grid-template-columns: repeat(2,150px);
-    gap: 8px;
-}
-
-.photos-grid div{
-    height: 160px;
-    width: 120px;
-    font-size: 50px;
-    color: white;
-    display: flex;
-    position: relative;
-    z-index: 1;
-    direction:ltr;
-    opacity: 38%;
-    background-image: url(resources/fatui_logo.png);
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-}
-.photos-grid div img{
-    position: relative;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 1));
-}
-
-.photos-grid div{
-    border: 2px solid rgb(160, 6, 6);
-}
-
-    .photos-grid div:nth-child(1) img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        position: absolute;
-        z-index: -1;
-        
-    }
-    
-    .photos-grid div:nth-child(2) img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        position: absolute;
-        z-index: -1;
-    }
-
-    .photos-grid div:nth-child(3) img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    }
-
-    .photos-grid div:nth-child(4) img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    }
-
-    .photos-grid div:nth-child(5) img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    }
-
-    .photos-grid div:nth-child(6) img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        position: absolute;
-        z-index: -1;
-    }
-
-    .photos-grid div:nth-child(6){
-        background-image: url(resources/fatui_logo_red.png);
-        background-size: 139%;
-        border: solid #b91f11;
-}
-
-    .photos-grid div:nth-child(6){
-        opacity: 100%;
-    }
-
-    .photos-grid div:nth-child(7) img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    }
-
-    .photos-grid div:nth-child(8) img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    }
-
-    .photos-grid div:nth-child(9) img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    }
-
-    .photos-grid div:nth-child(10) img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    }
-
 .text-block {
     color: aliceblue;
-    border: 1px rgb(196, 106, 4) solid;
+    border: 1px rgb(196, 158, 4) solid;
     height: 849px;
-    width: max-content;
+    width: 100vh;
     border-radius: 2%;
     text-align: center;
+}
+
+.text-block p{
+    max-height: 200px;
+    overflow-y: auto;
 }
