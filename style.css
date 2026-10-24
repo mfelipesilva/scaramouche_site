@@ -1,14 +1,15 @@
 body {
-    background-color: rgb(32, 8, 8);
+    background-color: rgb(0, 0, 0);
     max-width: min-content;
     color: white;
 }
 
-.main-container{
+.main-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    max-width: 90%;
 }
 
 .text-block {
@@ -20,7 +21,27 @@ body {
     text-align: center;
 }
 
-.text-block p{
+.text-block p {
     max-height: 200px;
     overflow-y: auto;
+}
+
+.portrait {
+    padding-left: 1.5rem;
+    left: 3rem;
+    position: relative;
+}
+
+#photo-1 {
+    width: 300px;
+    position: relative;
+    left: 3rem;
+    top: 12rem;
+}
+
+#frame {
+    width: 400px;
+    z-index: 1;
+    bottom: 300px;
+    position: relative;
 }
