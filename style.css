@@ -6,7 +6,7 @@ body {
 
 .main-container {
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     gap: 0px;
     max-width: 100%;
     display: flex;
@@ -15,18 +15,20 @@ body {
 .text-block {
     color: aliceblue;
     border: 1px rgb(196, 158, 4) solid;
-    height: 849px;
+    border-bottom: 0px;
+    height: 3400px;
     width: 50rem;
     max-width: 100%;
     border-radius: 2%;
-    margin: 0 0;
+    margin: 0 auto;
     text-align: center;
     align-items: center;
 }
 
 .text-block p {
-    max-height: 200px;
-    overflow-y: auto;
+    overflow-y: hidden;
+    padding: 1rem;
+    max-width: 47.5rem;
 }
 
 .portrait {
@@ -56,5 +58,5 @@ body {
     width: 15%;
     position: relative;
     bottom: 20rem;
-    left: 4rem;
+    left: .5rem;
 }
