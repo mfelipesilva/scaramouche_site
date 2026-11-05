@@ -23,6 +23,7 @@ body {
     margin: 0 auto;
     text-align: center;
     align-items: center;
+    line-height: 1.3rem;
 }
 
 .text-block p {
@@ -41,14 +42,14 @@ body {
 #photo-1 {
     width: 85%;
     position: relative;
-    bottom: 3rem;
+    top: 1.8rem;
     right: 2rem;
 }
 
 #frame {
     max-width: 95%;
     z-index: 1;
-    bottom: 21.9rem;
+    bottom: 18rem;
     position: relative;
     right: 2.5rem;
 }
@@ -56,7 +57,6 @@ body {
 
 #kanji {
     width: 15%;
-    position: relative;
-    bottom: 20rem;
+    height: 3%;
     left: .5rem;
 }
