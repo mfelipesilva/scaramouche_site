@@ -1,7 +1,7 @@
 body {
     background-color: rgb(0, 0, 0);
     color: white;
-
+    overflow-x: hidden;
 }
 
 .main-container {
@@ -32,7 +32,7 @@ body {
     max-width: 47.5rem;
 }
 
-.portrait {
+.portrait-left {
     padding-left: 1.5rem;
     left: 3rem;
     position: relative;
@@ -55,8 +55,37 @@ body {
 }
 
 
-#kanji {
-    width: 15%;
-    height: 3%;
+#decoration-act1 {
+    width: 85%;
+    height: 10%;
     left: .5rem;
+}
+
+#photo-2 {
+    width: 85%;
+    position: relative;
+    top: 17rem;
+    right: 1rem;
+}
+
+#frame-act2 {
+    max-width: 130%;
+    z-index: 1;
+    bottom: 4rem;
+    position: relative;
+    right: 4.5rem;
+}
+
+
+.portrait-right {
+    padding-right: 1.5rem;
+    right: .5rem;
+    position: relative;
+    max-width: 15rem;
+}
+
+#decoration-act2{
+    width: 120%;
+    position: relative;
+    right: 5rem;
 }
